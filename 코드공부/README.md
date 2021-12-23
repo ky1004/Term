@@ -13,13 +13,55 @@
  - 카메라 자유이동: 방향키
  - 줌: 마우스 휠, Alt + 우클릭
 
+
+## C# SCRIPT
+<hr>
+
 ## D
+### Debug.log()
 ```cs
 // 콘솔 창에 메시지 출력
 Debug.log();
 ```
+
+## F
+### for문
+```cs
+// 변수를 연산하면서 로직 반복 실행
+for(연산될 변수; 조건; 연산){
+    로직;
+}
+// for문의 그룹형 변수 탐색에 특화
+foreach(데이터형식 변수명 in 배열){
+    로직;
+}
+```
+
+## I
+### 인스턴스(instance)
+```cs
+// 멤버변수, 멤버함수를 모두 만든 뒤, 클래스 사용 시
+// 이 클래스를 하나의 변수명으로 만드는 과정을 인스턴스화 라고 한다
+클래스명 변수명 = new 클래스명();
+```
+
 ## L
+### List<>
  ```cs
 // 리스트 : 기능이 추가된 가변형 그룹형 변수 
+// ex) List<string> items = new list <string>();
 List<Datatype> items = new list <Datatype>();
+```
+
+## S
+### switch, case, default문
+ - 변수의 값에 따라 로직 실행, default는 else와 같은 기능
+
+## W
+### while문
+```cs
+// 조건이 참일 때 로직문 반복 실행
+while(조건){
+    로직;
+}
 ```
