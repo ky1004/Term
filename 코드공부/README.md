@@ -14,7 +14,12 @@
  - 줌: 마우스 휠, Alt + 우클릭
 
 ## D
- - Debug.log(): 콘솔창에 메시지 출력
+```cs
+// 콘솔 창에 메시지 출력
+Debug.log();
+```
 ## L
- - 리스트: 기능이 추가된 가변형 그룹형 변수
-   - List<Datatype> items = new list <Datatype>(); 
+ ```cs
+// 리스트 : 기능이 추가된 가변형 그룹형 변수 
+List<Datatype> items = new list <Datatype>();
+```
