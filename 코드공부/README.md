@@ -13,6 +13,14 @@
  - 카메라 자유이동: 방향키
  - 줌: 마우스 휠, Alt + 우클릭
 
+ ## 단축키
+ - 새로운 프로젝트 만들기: ctrl + shift + N
+ - 한줄 아래로 복사: ctrl + D
+ - 라인 이동: alt + 방향키 + 위아래
+ - 한줄 잘라내기: ctrl + L
+ - 단어 잘라내기 / 선택영역 잘라내기: ctrl + X
+ - 선택라인 복사: ctrl + C
+ - 여러줄 동시에 입력: shift + alt + 위아래
 
 ## C# SCRIPT
 <hr>
@@ -52,6 +60,10 @@ foreach(데이터형식 변수명 in 배열){
 // ex) List<string> items = new list <string>();
 List<Datatype> items = new list <Datatype>();
 ```
+
+## R
+### return
+ - 함수가 값을 반환할 때 사용
 
 ## S
 ### switch, case, default문
